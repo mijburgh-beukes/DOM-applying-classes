@@ -21,12 +21,20 @@ div {
   background-color: blue;
 }
 
+.green {
+  background-color: green;
+}
+
+.bumblebee {
+  background-color: rgb(255, 225, 0);
+}
+
 .invisible {
   display: none;
 }
 
 .visible {
-  display: block;
+  display: block /* !important */;
   border: 3px black dashed;
   border-radius: 0;
   background-color: white;
